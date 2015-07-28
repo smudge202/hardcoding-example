@@ -12,9 +12,9 @@ namespace CommandLine
 		public DisplayData(TextWriter writer, IDataRepository repository)
 		{
 			if (writer == null)
-				throw new ArgumentNullException(nameof(writer));
+				throw new ArgumentNullException("writer");
 			if (repository == null)
-				throw new ArgumentNullException(nameof(repository));
+				throw new ArgumentNullException("repository");
 			_writer = writer;
 			_repository = repository;
 		}
