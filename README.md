@@ -6,3 +6,5 @@ THe solution contains 2 codec projects. The `CommandLine` project simply present
 By default, the code will display some hardcoded text, however if you uncomment [this line](https://github.com/smudge202/hardcoding-example/blob/master/Hardcoding/src/CommandLine/Program.cs#L16) it will display text from the database.
 
 Nice and simple, mostly clean (was done very quickly).
+
+**I'm more than happy to walk people through these concepts if they seem foreign to you!**
